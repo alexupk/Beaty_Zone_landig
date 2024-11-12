@@ -1,0 +1,67 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-cyrillic_latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-cyrillic_latin-700.woff2') format('woff2');
+}
+
+:root {
+    /*Primary colors*/
+    --primary-color-blue-dark: #011C44;
+    --primary-color-light: #FFFFFF;
+    --primary-color-blue: #2B7FFF;
+    /*Secondary colors*/
+    --secondary-color-dark-grey: #4A4A4A;
+    --secondary-color-grey:#4A4A4A;
+    --secondary-color-grey-light: #4A4A4A;
+    --secondary-color-blue-dark: #747272;
+    --secondary-color-yellow: #FFD02B;
+}
+
+/* base */
+body{
+    color: var(--primary-color-blue-dark);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* header */
+
+/* hero-section */
+
+/* about-section */
+
+/* why-section */
+
+/* procedures-section */
+
+/* contact-section */
+
+/* footer */

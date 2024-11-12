@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Beauty zone</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="./index.html">
           <img
             src="./images/logo.svg"
             alt="Логотип кометологічной клінікі Beauty zone"
           />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#about-section">Про нас</a></li>
+          <li><a href="#why-section">Чому ми</a></li>
+          <li><a href="#procedures-section">Наші процедури</a></li>
+          <li><a href="#contact-section">Контакти</a></li>
         </ul>
         <ul>
           <li>
@@ -45,120 +46,136 @@
         </ul>
       </nav>
     </header>
-    <!-- section 1 -->
-    <sectiion>
-      <p>Косметологічна клініка</p>
-      <h1>beauty zone</h1>
-      <button type="button">Замовити дзвінок</button>
-      <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
-    </sectiion>
-    <!-- section 2 -->
-    <sectiion>
-      <h2>Перевтілюйтесь в <span>beauty zone!</span></h2>
-      <p>
-        Наша косметологічна клініка пропонує вам професійні послуги з догляду за
-        шкірою обличчя та тіла.
-      </p>
-      <p>
-        B <spun>beauty zone</spun> ми гарантуємо найвищі стандарти якості та
-        приємний сервіс. Наші косметологічні процедури та препарати допоможуть
-        вам підтримувати свою красу та молодість. З нами краса назавжди!
-      </p>
-      <img
-        src="./images/woman_before_procedure.jpg"
-        alt="Обличчя жінки до косметологічної процедури"
-      />
-      <img
-        src="./images/woman_after_procedure.jpg"
-        alt="Обличчя жінки після косметологічної процедури"
-      />
-    </sectiion>
-    <!-- section 3 -->
-    <sectiion>
-      <h2>Чому люди <span>обирають нас</span></h2>
-      <ul>
-        <li>
-          <img
-            src="./images/game-icons_materials-science.svg"
-            alt="Іконка зображує науку"
-          />
-          <p>
-            Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5
-            років
-          </p>
-        </li>
-        <li>
-          <img
-            src="./images/medicinecosmetics.svg"
-            alt="Іконка зображує кометичні засоби"
-          />
-          <p>
-            Використовуємо тільки професійне обладнання та косметику, перевірену
-            часом
-          </p>
-        </li>
-        <li>
-          <img src="./images/crown.svg" alt="Іконка зображує корону" />
-          <p>
-            Наша мета - підкреслити переваги та приховати недоліки, а не
-            переробити
-          </p>
-        </li>
-      </ul>
-    </sectiion>
-    <!-- section 4 -->
-    <sectiion>
-      <h2>Наші процедури</h2>
-      <button type="button">
-        <img src="./images/arrow_left.svg" alt="Стрілка ліворуч" />
-      </button>
-      <ul>
-        <li>
-          <img
-            src="./images/face_masks.jpg"
-            alt="Жінка отримує процедуру накладання маски на обличчя"
-          />
-          <p>Маски для обличчя</p>
-        </li>
-        <li>
-          <img
-            src="./images/injections.jpg"
-            alt="Жінка отримує процедуру ін'єкцій для обличчя"
-          />
-          <p>Ін'єкції для обличчя</p>
-        </li>
-        <li>
-          <img
-            src="./images/cleansing.jpg"
-            alt="Жінка отримує процедуру очищення обличчя"
-          />
-          <p>Очищення обличчя</p>
-        </li>
-      </ul>
-      <button type="button">
-        <img src="./images/arrow_right.svg" alt="Стрілка праворуч" />
-      </button>
-      <img src="./images/novigation.svg" alt="Новігація" />
-    </sectiion>
-    <!-- section 5 -->
-    <sectiion>
-      <h2>Як нас <span>знайти</span></h2>
-      <!-- мапа -->
-      <!-- форма запису -->
-    </sectiion>
+    <main>
+      <!-- section 1 -->
+      <section>
+        <p>Косметологічна клініка</p>
+        <h1>beauty zone</h1>
+        <button type="button">Замовити дзвінок</button>
+        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+      </section>
+      <!-- section 2 -->
+      <section id="about-section">
+        <h2>Перевтілюйтесь в <span>beauty zone!</span></h2>
+        <p>
+          Наша косметологічна клініка пропонує вам професійні послуги з догляду
+          за шкірою обличчя та тіла.
+        </p>
+        <p>
+          B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
+          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
+          вам підтримувати свою красу та молодість. З нами краса назавжди!
+        </p>
+        <img
+          src="./images/woman_before_procedure.jpg"
+          alt="Обличчя жінки до косметологічної процедури"
+        />
+        <img
+          src="./images/woman_after_procedure.jpg"
+          alt="Обличчя жінки після косметологічної процедури"
+        />
+      </section>
+      <!-- section 3 -->
+      <section id="why-section">
+        <h2>Чому люди <span>обирають нас</span></h2>
+        <ul>
+          <li>
+            <img
+              src="./images/game-icons_materials-science.svg"
+              alt="Іконка зображує науку"
+            />
+            <p>
+              Всі наші косметологи мають вищу медичну освіту та стаж роботи від
+              5 років
+            </p>
+          </li>
+          <li>
+            <img
+              src="./images/medicinecosmetics.svg"
+              alt="Іконка зображує кометичні засоби"
+            />
+            <p>
+              Використовуємо тільки професійне обладнання та косметику,
+              перевірену часом
+            </p>
+          </li>
+          <li>
+            <img src="./images/crown.svg" alt="Іконка зображує корону" />
+            <p>
+              Наша мета - підкреслити переваги та приховати недоліки, а не
+              переробити
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!-- section 4 -->
+      <section id="procedures-section">
+        <h2>Наші процедури</h2>
+        <button type="button">
+          <img src="./images/arrow_left.svg" alt="Стрілка ліворуч" />
+        </button>
+        <ul>
+          <li>
+            <article>
+              <img
+                src="./images/face_masks.jpg"
+                alt="Жінка отримує процедуру накладання маски на обличчя"
+              />
+              <h3>Маски для обличчя</h3>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="./images/injections.jpg"
+                alt="Жінка отримує процедуру ін'єкцій для обличчя"
+              />
+              <h3>Ін'єкції для обличчя</h3>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="./images/cleansing.jpg"
+                alt="Жінка отримує процедуру очищення обличчя"
+              />
+              <h3>Очищення обличчя</h3>
+            </article>
+          </li>
+        </ul>
+        <button type="button">
+          <img src="./images/arrow_right.svg" alt="Стрілка праворуч" />
+        </button>
+        <img src="./images/novigation.svg" alt="Новігація" />
+      </section>
+      <!-- section 5 -->
+      <section id="contact-section">
+        <h2>Як нас <span>знайти</span></h2>
+        <!-- мапа -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2865.174606618287!2d30.51326335626346!3d50.44221699856303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e1!3m2!1suk!2sua!4v1730977810318!5m2!1suk!2sua"
+          width="605"
+          height="481"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- форма запису -->
+      </section>
+    </main>
     <footer>
       <nav>
-        <a href="#">
+        <a href="./index.html">
           <img
             src="./images/logo.svg"
             alt="Логотип кометологічной клінікі Beauty zone"
           />
         </a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#about-section">Про нас</a></li>
+          <li><a href="#why-section">Чому ми</a></li>
+          <li><a href="#procedures-section">Наші процедури</a></li>
+          <li><a href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -195,7 +212,7 @@
           </li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2022 Дані захищені</p>
+        <p>&copy; 2022 Дані захищені</p>
       </address>
       <img
         src="./images/comedic_features.jpg"
