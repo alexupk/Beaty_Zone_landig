@@ -35,9 +35,10 @@
     /*Secondary colors*/
     --secondary-color-dark-grey: #4A4A4A;
     --secondary-color-grey:#4A4A4A;
-    --secondary-color-grey-light: #4A4A4A;
-    --secondary-color-blue-dark: #747272;
+    --secondary-color-grey-light: #747272;
+    --secondary-color-blue-dark: #011F4A;
     --secondary-color-yellow: #FFD02B;
+    --secondary-color-black: #000000;
 }
 
 /* base */
@@ -51,6 +52,15 @@ body{
 
 ul {
     list-style-type: none;
+}
+/* для заголовків секцій та акцентів */
+.secondary_title{
+    font-family: "Play", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+.secondary_title .accent{
+    color: var(--primary-color-blue);
 }
 
 /* header */
@@ -91,13 +101,7 @@ ul {
 }
 
 /* about-section */
-.about-section-title{
-    font-family: "Play", sans-serif;
-    font-size: 64px;
-    font-weight: 700;
-}
-.about-section-title .accent{
-    color: var(--primary-color-blue);
+.accent-capitalize{
     text-transform: capitalize;
 }
 .about-section-text{
@@ -108,10 +112,49 @@ ul {
     font-weight: 700;
     text-transform: capitalize;
 }
+
 /* why-section */
+.why-section-title{
+    text-align: center;
+}
+.why-section-text{
+    color: var(--secondary-color-black);
+}
 
 /* procedures-section */
+.procedures-section-title{
+    text-align: center;
+}
+.procedures-section-article-title{
+    font-size: 22px;
+    line-height: 1.2;
+    color: var(--primary-color-light);
+    font-weight: 400;
+}
 
 /* contact-section */
+.contact-section-title{
+    text-align: center;
+}
 
 /* footer */
+.fotter{
+    background-color: var(--primary-color-blue-dark);
+}
+.address{
+    font-style: normal;
+}
+.footer-nav-link{
+    color: var(--primary-color-light);
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-nav-link:hover {
+    font-weight: 700;
+    color: var(--primary-color-blue);
+}
+.footer-protection{
+    color: var(--secondary-color-grey-light);
+    font-size: 13px;
+    font-style: normal;
+}
